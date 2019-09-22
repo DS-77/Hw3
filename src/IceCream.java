@@ -9,6 +9,20 @@
  */
 
 public abstract class IceCream {
+    // Ice Cream Class properties.
+    protected String description;
 
+    /**
+     * This method returns the string value stored in the class's "description" property.
+     * @return a String value stored in "description" property.
+     */
+    public String toString() {
+        return description;
+    }
 
+    /**
+     * This method will be implemented by children subclasses.
+     * @return a double value that reflects the cost of said class object.
+     */
+    public abstract double getCost();
 }
