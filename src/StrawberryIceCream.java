@@ -9,11 +9,17 @@
  */
 
 public class StrawberryIceCream extends IceCream{
-
+    /**
+     * This method is the default constructor for the StrawberryIceCream class.
+     */
     public StrawberryIceCream(){
         description = "Strawberry Ice Cream";
     }
 
+    /**
+     * This method prints out the double cost value.
+     * @return a double value that represents the StrawberryIceCream object's cost.
+     */
     @Override
     public double getCost() {
         return 0.8;

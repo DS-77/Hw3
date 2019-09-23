@@ -9,6 +9,10 @@
  */
 
 public abstract class ToppingsDecorator extends IceCream{
+    /**
+     * This method will be implemented by the subclasses.
+     * @return a string value.
+     */
     @Override
     public abstract String toString();
 }
